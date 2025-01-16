@@ -1,4 +1,4 @@
-import { Form } from "react-router";
+import { Form } from "react-router-dom";
 import loginImage from "../assets/loginImage.png";
 import logo from "../assets/logo.png";
 
