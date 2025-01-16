@@ -23,12 +23,29 @@ img {
   min-height: calc(100vh - 100px);
   grid-template-columns: 283px 1fr;
   grid-template-areas: "a  b";
+  @media screen and (max-width: $md-large) {
+    grid-template-columns: 1fr;
+  }
   &__sidebar {
     grid-area: a;
-    background-color: black;
+    background-color: white;
+    @media screen and (max-width: $md-large) {
+      display: none;
+      grid-area: none;
+    }
   }
   &__content {
     grid-area: b;
-    background-color: green;
+    background-color: #fbfbfb;
+    padding: 3.94rem;
+    @media screen and (max-width: $md-large) {
+      grid-area: a;
+    }
   }
+}
+
+.user-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1.6rem;
 }
