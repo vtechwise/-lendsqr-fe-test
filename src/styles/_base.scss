@@ -16,3 +16,18 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.dashboard-layout {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 283px 1fr;
+  grid-template-areas: "a  b";
+  &__sidebar {
+    grid-area: a;
+    background-color: black;
+  }
+  &__content {
+    grid-area: b;
+    background-color: green;
+  }
+}
