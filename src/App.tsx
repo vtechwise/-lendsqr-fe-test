@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Dashboard, Homelayout, User, UserDetail } from "./pages/dashboard";
+import {  Homelayout, User, UserDetail } from "./pages/dashboard";
 import "./styles/main.scss";
 import Login from "./pages/Login";
 
