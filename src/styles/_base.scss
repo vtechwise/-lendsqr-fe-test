@@ -2,6 +2,7 @@ $md-largest: 75em;
 $md-large: 61em;
 $md-medium: 50em;
 $md-small: 35.6em;
+$primary-color: #39cdcc;
 
 * {
   margin: 0;
@@ -19,7 +20,7 @@ img {
 
 .dashboard-layout {
   display: grid;
-  min-height: 100vh;
+  min-height: calc(100vh - 100px);
   grid-template-columns: 283px 1fr;
   grid-template-areas: "a  b";
   &__sidebar {
