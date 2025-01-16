@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import { Dashboard, Homelayout, UserDetail } from "./pages/dashboard";
 import "./styles/main.scss";
 import Login from "./pages/Login";

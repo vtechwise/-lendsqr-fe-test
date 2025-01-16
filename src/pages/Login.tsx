@@ -1,3 +1,4 @@
+import { Form } from "react-router";
 import loginImage from "../assets/loginImage.png";
 import logo from "../assets/logo.png";
 
@@ -14,12 +15,12 @@ const Login = () => {
         <div>
           <h1>Wellcome!</h1>
           <p>enter details to login</p>
-          <form className="login__section-2__form">
+          <Form className="login__section-2__form">
             <input type="text" placeholder="Email" />
             <input type="password" placeholder="password" />
             <p>Forgot password</p>
             <button className="btn">Login</button>
-          </form>
+          </Form>
         </div>
       </div>
     </section>
