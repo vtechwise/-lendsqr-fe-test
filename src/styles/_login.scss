@@ -1,0 +1,56 @@
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  &__section-1 {
+    padding-left: 97px;
+    padding-top: 100px;
+    background-color: #fbfbfb;
+    &__logo {
+      display: block;
+      margin-bottom: 100px;
+    }
+    @media screen and (max-width: $md-large) {
+      display: none;
+    }
+  }
+  &__section-2 {
+    background-color: white;
+    display: grid;
+    place-items: center;
+
+    h1 {
+      color: #213f7d;
+      padding-bottom: 10px;
+    }
+
+    &__form {
+      width: 447px;
+      display: grid;
+      margin-top: 60px;
+      gap: 24px;
+      input {
+        // width: 100%;
+        padding: 17px;
+        border-color: #545f7d26;
+      }
+      .btn {
+        // display: inline-block;
+        background-color: #39cdcc;
+        color: white;
+        text-transform: uppercase;
+        padding: 15px 17px;
+       
+
+        width: 100%;
+        border: none;
+      }
+      p {
+        font-size: 12px;
+        font-weight: 600;
+        color: #39cdcc;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
