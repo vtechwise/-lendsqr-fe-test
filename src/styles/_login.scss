@@ -6,6 +6,7 @@
     padding-left: 97px;
     padding-top: 100px;
     background-color: #fbfbfb;
+
     &__logo {
       display: block;
       margin-bottom: 100px;
@@ -18,7 +19,9 @@
     background-color: white;
     display: grid;
     place-items: center;
-
+    @media screen and (max-width: $md-large) {
+      padding: 15px;
+    }
     h1 {
       color: #213f7d;
       padding-bottom: 10px;
@@ -40,7 +43,6 @@
         color: white;
         text-transform: uppercase;
         padding: 15px 17px;
-       
 
         width: 100%;
         border: none;
