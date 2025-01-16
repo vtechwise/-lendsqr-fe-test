@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import { sidebarLinks } from "../../constant/Sidebarlinks";
-import { SidebarLinks } from "../../constant/type";
 
 const Sidebar = () => {
   return (
@@ -13,7 +12,9 @@ const Sidebar = () => {
             {items.map((item) => {
               return (
                 <li key={item.title}>
-                  <NavLink to={item.link} className='link'>{item.title}</NavLink>
+                  <NavLink to={item.link} className="link">
+                    {item.title}
+                  </NavLink>
                 </li>
               );
             })}
