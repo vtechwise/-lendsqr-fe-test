@@ -32,7 +32,7 @@ const UserCard = () => {
   return (
     <>
       {users.map((user) => {
-        const { title, amount, color } = user;
+        const { title, amount } = user;
         return (
           <article key={title} className="user-card">
             <h2>{title}</h2>
