@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Dashboard, Homelayout, UserDetail } from "./pages/dashboard";
+import { Dashboard, Homelayout, User, UserDetail } from "./pages/dashboard";
 import "./styles/main.scss";
 import Login from "./pages/Login";
 
@@ -7,7 +7,6 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
-
   },
 
   {
@@ -16,11 +15,8 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Dashboard />,
-      },
-      {
         path: "user",
-        element: <Dashboard />,
+        element: <User />,
       },
       {
         path: "user-detail",

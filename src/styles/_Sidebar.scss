@@ -1,0 +1,30 @@
+.sidebar {
+  // padding-left: 1.88rem;
+  h4 {
+    font-size: 0.76rem;
+    color: #545f7d;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    padding-left: 1.88rem;
+    list-style-type: none;
+    padding-top: 1rem;
+  }
+  li {
+    list-style: none;
+    padding-left: 1.88rem;
+    color: #545f7d;
+    padding-top: 0.69rem;
+    padding-bottom: 0.69rem;
+    .link {
+      text-decoration: none;
+      color: #213f7d;
+    }
+    &:hover {
+      background-color: #f3fcfc;
+      border-left: 6px solid $primary-color;
+      color: #213f7d;
+
+      font: bold;
+    }
+  }
+}
