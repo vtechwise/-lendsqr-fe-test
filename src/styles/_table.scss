@@ -1,6 +1,33 @@
 .table {
+  &__header {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2.19rem;
+    overflow-x: scroll !important;
+    background: white;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    border-radius: .25rem;
+    padding: 1.88rem;
+    margin-top: 2.5rem;
+  }
   &__title {
     display: flex;
     gap: 0.62rem;
+    // flex-wrap: nowrap;
+    // overflow-x: scroll;
+
+    span {
+      white-space: nowrap;
+      font-size: .75rem;
+      color: #545F7D;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  }
+  &__email {
+    padding-right: 5.19rem;
+  }
+  &__date-joined {
+    padding-right: 3rem;
   }
 }
