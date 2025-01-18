@@ -11,9 +11,7 @@
   white-space: nowrap;
 }
 
-span {
-  // white-space: nowrap;
-}
+
 .table {
   width: auto;
   display: block;
@@ -29,10 +27,7 @@ span {
   // thead {
   //   overflow-x: scroll;
   // }
-  th td {
-    // overflow-x: hidden;
-    // padding-right: 2rem !important;
-  }
+  
   &__title {
     // display: flex;
     // gap: 0.62rem;

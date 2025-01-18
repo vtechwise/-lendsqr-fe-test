@@ -13,7 +13,7 @@ const TableTitle = ({ name }: Table) => {
         } `}
       >
         <span>{name}</span>
-        {/* <img src={filter} alt={name} /> */}
+        <img src={filter} alt={name} />
       </div>
     </th>
   );
