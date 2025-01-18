@@ -49,7 +49,11 @@ img {
 }
 
 .user-card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  display: grid !important;
+
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)) !important;
   gap: 2rem;
+   @media screen and (max-width: $md-small) {
+      // grid-template-columns: 1fr !important;
+    }
 }

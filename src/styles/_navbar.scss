@@ -1,5 +1,6 @@
 .navbar {
   padding: 30px;
+  visibility: hidden;
   display: flex;
   justify-content: space-between;
   &__search {
@@ -37,9 +38,7 @@
             color: #213F7D;
         }
     }
-    p {
-
-    }
+   
     img {
       border-radius: 50%;
     }
