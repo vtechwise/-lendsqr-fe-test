@@ -8,9 +8,9 @@ const User = () => {
       <div className="user-card-container">
         <UserCard />
       </div>
-      <div>
+      {/* <div> */}
         <Table/>
-      </div>
+      {/* </div> */}
     </div>
   );
 };

@@ -1,33 +1,56 @@
+.table-container {
+  overflow-x: scroll ;
+  background: white;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  border-radius: 0.25rem;
+  padding: 1.88rem;
+  margin-top: 2.5rem;
+  // max-width: 100%;
+
+  // height: 200px;
+  white-space: nowrap;
+}
+
+span {
+  // white-space: nowrap;
+}
 .table {
-  &__header {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 2.19rem;
-    overflow-x: scroll !important;
-    background: white;
-    border: 1px solid rgba(33, 63, 125, 0.06);
-    border-radius: .25rem;
-    padding: 1.88rem;
-    margin-top: 2.5rem;
+  width: auto;
+  display: block;
+  min-width: 1000px;
+  border-collapse: separate;
+  margin: 20px 0;
+  border-spacing: 30px 5px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  // tr {
+  //   overflow-x: scroll;
+  // }
+  // thead {
+  //   overflow-x: scroll;
+  // }
+  th td {
+    // overflow-x: hidden;
+    // padding-right: 2rem !important;
   }
   &__title {
-    display: flex;
-    gap: 0.62rem;
+    // display: flex;
+    // gap: 0.62rem;
+    // margin-right: 2.19rem;
     // flex-wrap: nowrap;
-    // overflow-x: scroll;
 
     span {
-      white-space: nowrap;
-      font-size: .75rem;
-      color: #545F7D;
+      // white-space: nowrap;
+      font-size: 0.75rem;
+      color: #545f7d;
       text-transform: uppercase;
       cursor: pointer;
     }
   }
-  &__email {
-    padding-right: 5.19rem;
-  }
-  &__date-joined {
-    padding-right: 3rem;
-  }
+  // &__email {
+  //   padding-right: 5.19rem;
+  // }
+  // &__date-joined {
+  //   padding-right: 3rem;
+  // }
 }
